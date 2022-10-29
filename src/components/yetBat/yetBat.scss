@@ -1,0 +1,26 @@
+.yetbat__container{
+    width: 100%;
+
+    .yetbat__wrapper{
+        padding: 10px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .player-block{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}

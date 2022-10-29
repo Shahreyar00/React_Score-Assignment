@@ -1,0 +1,44 @@
+table{
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.09);
+    border-collapse: collapse;
+
+    thead{
+        background: rgb(215, 215, 215);
+        th{
+            padding: 15px 5px;
+            text-align: center;
+
+            &:nth-child(1){
+                text-align: left;
+            }
+        }
+    }
+
+    tbody{
+        td{
+            padding: 10px 5px;
+            text-align: center;
+
+            &:nth-child(1){
+                text-align: left;
+            }
+
+            .active{
+                color: green;
+            }
+            .inactive{
+                color: gray;
+            }
+
+            .out{
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
